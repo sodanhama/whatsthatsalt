@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+}
+
+body {
+    background: #262626;
+    color: #FFFFFC;
+}
+
+main {
+    text-align: center;
+}
