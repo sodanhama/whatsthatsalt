@@ -1,0 +1,13 @@
+[
+  { "title": "Preliminary tests", "description": "Initial examination of the sample", "contents": [
+    {"title": "Physical properties", "contents": [
+      {"title": "Color"},
+      {"title": "Texture"},
+      {"title": "Solubility"},
+      {"title": "Odor"}
+    ]},
+    {"title": "Dry heating", "contents": [
+    ]}
+  ] },
+  { "title": "Secondary analysis" }
+]
