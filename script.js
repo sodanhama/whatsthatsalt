@@ -1,30 +1,29 @@
 const main = document.querySelector('main');
-const startButton = document.querySelector('#start');
+const continueButton = document.querySelector('#continue');
 const header = document.querySelector('#header');
 const description = document.querySelector('#description');
 const content = document.querySelector('#content');
 
-let steps=[];
+function preliminaryTests() {
 
-fetch('./steps.json')
-    .then(response => response.json())
-    .then(data => {
-        steps = data;
-    })
-    .catch(error => {
-        console.error('Error fetching steps:', error);
-    });
+}
 
-let step = 0;
+function anionTests() {
 
-startButton.addEventListener('click', () => {
-    startButton.innerHTML = "NEXT";
-    if (steps.length > 0 && step < steps.length) {
-        header.textContent = `${steps[step].title}`;
-        description.textContent = `${steps[step].description}`;
-        step++;
-    } else if (step >= steps.length) {
-        header.textContent = "Analysis complete";
-        startButton.disabled = true;
-    }
-});
+}
+
+function cationTests() {
+
+}
+
+function anionConfirmatoryTests() {
+
+}
+
+function cationConfirmatoryTests() {
+
+}
+
+function fin() {
+
+}

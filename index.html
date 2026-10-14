@@ -8,16 +8,55 @@
 </head>
 <body>
     <header>
-        <h1 id="header">Qualitative Analysis</h1>
+        <h3 id="header">Salt Analysis</h3>
     </header>
     <main>
-        <button id="start">START</button>
+        <form id="physical">
+            <h2>Physical Examination</h2>
+            <label for="color">Color: </label>
+            <select id="color" name="color">
+                <option value="white">White</option>
+                <option value="blue">Blue or bluish green</option>
+                <option value="light-green">Light green</option>
+                <option value="dark-brown">Dark brown</option>
+                <option value="green">Green</option>
+                <option value="pink">Pink</option>
+                <option value="light-pink">Light pink, flesh, or earthy</option>
+            </select>
+            <br>
+            <br>
+            <label for="smell">Smell: </label>
+            <select id="smell" name="smell">
+                <option value="none">No smell</option>
+                <option value="ammoniacal">Ammoniacal smell</option>
+                <option value="vinegar">Vinegar like smell</option>
+                <option value="rotten">Rotten egg like smell</option>
+            </select>
+            <br>
+            <br>
+            <label for="dry-heating">Dry heating observation: </label>
+            <select id="dry-heating" name="dry-heating">
+                <optgroup label="Gas evolved">
+                    <option value="co2">Colorless and odorless gas</option>
+                    <option value="h2s">Colorless gas with a smell of rotten eggs</option>
+                    <option value="so2">Colorless gas with a sulphur smell</option>
+                    <option value="hcl">Colorless gas with a sharp, pungent smell</option>
+                    <option value="ch3cooh">Colorless gas with a smell of vinegar</option>
+                    <option value="nh3">Colorless gas with a characteristic ammonia smell</option>
+                    <option value="no2">Reddish brown gas with a pungent smell</option>
+                    <option value="cl2">Greenish yellow gas with a strong </option>
+                </optgroup>
+            </select>
+            <br>
+            <br>
+        </form>
+        <button id="continue">CONTINUE</button>
         <p id="description"></p>
         <div id="content"></div>
     </main>
     <footer>
         <p>
-            Made with <3 by <a href="https://github.com/sohamdana" target="_blank">sodanhama</a>
+            Made with <3 by <a href="https://github.com/sodanhama" target="_blank">sodanhama</a>
         </p>
     </footer>
     <script src="./script.js"></script>

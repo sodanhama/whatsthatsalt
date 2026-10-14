@@ -39,3 +39,7 @@ footer {
     text-align: center;
     color:#636060;
 }
+
+select {
+    font-size: 1rem;
+}

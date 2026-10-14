@@ -1,13 +1,4 @@
 [
-  { "title": "Preliminary tests", "description": "Initial examination of the sample", "contents": [
-    {"title": "Physical properties", "contents": [
-      {"title": "Color"},
-      {"title": "Texture"},
-      {"title": "Solubility"},
-      {"title": "Odor"}
-    ]},
-    {"title": "Dry heating", "contents": [
-    ]}
-  ] },
-  { "title": "Secondary analysis" }
+  { "title": "Systematic identification of anions", "description": "Anions are to be classified into three distinct groups." },
+  { "title": "Cation test", "description": "Test for the cation present in the salt." }
 ]
