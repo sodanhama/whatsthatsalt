@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Jost:ital,wght@0,100..900;1,100..900&family=Yarndings+20&display=swap');
 
 * {
-    font-family: 'Jersey 10', sans-serif;
+    font-family: 'Jersey 20', sans-serif;
 }
 
 html {
@@ -42,4 +42,24 @@ footer {
 
 select {
     font-size: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    color: #969696;
+}
+
+nav a {
+    color: #969696;
+    font-size: 0.75rem;
+    text-decoration: none;
+    font-weight: 200;
+    font-family: 'Jost', sans-serif;
+}
+
+#test {
+    font-family: 'Yarndings 20', sans-serif;
+    color: #969696;
 }

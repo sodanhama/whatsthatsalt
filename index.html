@@ -4,61 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
-    <title>What's that salt?</title>
+    <title>Preliminary tests</title>
 </head>
 <body>
     <header>
-        <h3 id="header">Salt Analysis</h3>
+        <p id="test">s o d a n h a m a</p>
+        <nav>
+            <a href="./index.html">PRELIMINARY TESTS</a> | 
+            <a href="./anion-group-separation.html">anion group separation</a> |
+            <a href="./cation-group-separation.html">cation group separation</a> |
+            <a href="./anion-confirmatory.html">anion confirmatory tests</a> |
+            <a href="./cation-confirmatory.html">cation confirmatory tests</a> |
+            <a href="./textbook.html">wiki</a>
+        </nav>
     </header>
     <main>
-        <form id="physical">
-            <h2>Physical Examination</h2>
-            <label for="color">Color: </label>
-            <select id="color" name="color">
-                <option value="white">White</option>
-                <option value="blue">Blue or bluish green</option>
-                <option value="light-green">Light green</option>
-                <option value="dark-brown">Dark brown</option>
-                <option value="green">Green</option>
-                <option value="pink">Pink</option>
-                <option value="light-pink">Light pink, flesh, or earthy</option>
+            <h2>Physical tests</h2>
+            <select id="color" name="color" required>
+                <option value="" selected disabled hidden>select a color</option>
+                <option value="white">white</option>
+                <option value="blue">blue or bluish green</option>
+                <option value="light-green">light green</option>
+                <option value="dark-brown">dark brown</option>
+                <option value="green">green</option>
+                <option value="pink">pink</option>
+                <option value="light-pink">light pink, flesh, or earthy</option>
             </select>
             <br>
             <br>
-            <label for="smell">Smell: </label>
-            <select id="smell" name="smell">
-                <option value="none">No smell</option>
-                <option value="ammoniacal">Ammoniacal smell</option>
-                <option value="vinegar">Vinegar like smell</option>
-                <option value="rotten">Rotten egg like smell</option>
+            <select id="smell" name="smell" required>
+                <option value="" selected disabled hidden>select a smell</option>
+                <option value="none">no smell</option>
+                <option value="ammoniacal">ammoniacal smell</option>
+                <option value="vinegar">vinegar like smell</option>
+                <option value="rotten">rotten egg like smell</option>
             </select>
             <br>
             <br>
-            <label for="dry-heating">Dry heating observation: </label>
-            <select id="dry-heating" name="dry-heating">
-                <optgroup label="Gas evolved">
-                    <option value="co2">Colorless and odorless gas</option>
-                    <option value="h2s">Colorless gas with a smell of rotten eggs</option>
-                    <option value="so2">Colorless gas with a sulphur smell</option>
-                    <option value="hcl">Colorless gas with a sharp, pungent smell</option>
-                    <option value="ch3cooh">Colorless gas with a smell of vinegar</option>
-                    <option value="nh3">Colorless gas with a characteristic ammonia smell</option>
-                    <option value="no2">Reddish brown gas with a pungent smell</option>
-                    <option value="cl2">Greenish yellow gas with a strong </option>
+            <select id="dry-heating" name="dry-heating" required>
+                <optgroup label="gas evolved">
+                    <option value="" selected disabled hidden>select a gas evolved</option>
+                    <option value="co2">colorless and odorless gas</option>
+                    <option value="h2s">colorless gas with a smell of rotten eggs</option>
+                    <option value="so2">colorless gas with a sulphur smell</option>
+                    <option value="hcl">colorless gas with a pungent smell</option>
+                    <option value="ch3cooh">colorless gas with a smell of vinegar</option>
+                    <option value="nh3">colorless gas with a characteristic ammonia smell</option>
+                    <option value="no2">reddish brown gas with a pungent smell</option>
+                    <option value="cl2">greenish yellow gas with a pungent smell</option>
+                    <option value="i2">dark violet gas with a pungent smell</option>
+                </optgroup>
+                <optgroup label="color change">
+                    <option>yellow when white and white when cold</option>
+                    <option>brown when hot and yellow when cold</option>
+                    <option>white salt becomes black on heating</option>
                 </optgroup>
             </select>
             <br>
             <br>
-        </form>
-        <button id="continue">CONTINUE</button>
         <p id="description"></p>
         <div id="content"></div>
     </main>
     <footer>
         <p>
-            Made with <3 by <a href="https://github.com/sodanhama" target="_blank">sodanhama</a>
+            made with <3 by <a href="https://github.com/sodanhama" target="_blank">sodanhama</a>
         </p>
     </footer>
-    <script src="./script.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>
