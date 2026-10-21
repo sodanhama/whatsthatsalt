@@ -8,7 +8,6 @@
 </head>
 <body>
     <header>
-        <p id="test">s o d a n h a m a</p>
         <nav>
             <a href="./index.html">PRELIMINARY TESTS</a> | 
             <a href="./anion-group-separation.html">anion group separation</a> |
@@ -19,51 +18,46 @@
         </nav>
     </header>
     <main>
-            <h2>Physical tests</h2>
-            <select id="color" name="color" required>
-                <option value="" selected disabled hidden>select a color</option>
-                <option value="white">white</option>
-                <option value="blue">blue or bluish green</option>
-                <option value="light-green">light green</option>
-                <option value="dark-brown">dark brown</option>
-                <option value="green">green</option>
-                <option value="pink">pink</option>
-                <option value="light-pink">light pink, flesh, or earthy</option>
-            </select>
-            <br>
-            <br>
-            <select id="smell" name="smell" required>
-                <option value="" selected disabled hidden>select a smell</option>
-                <option value="none">no smell</option>
-                <option value="ammoniacal">ammoniacal smell</option>
-                <option value="vinegar">vinegar like smell</option>
-                <option value="rotten">rotten egg like smell</option>
-            </select>
-            <br>
-            <br>
-            <select id="dry-heating" name="dry-heating" required>
-                <optgroup label="gas evolved">
-                    <option value="" selected disabled hidden>select a gas evolved</option>
-                    <option value="co2">colorless and odorless gas</option>
-                    <option value="h2s">colorless gas with a smell of rotten eggs</option>
-                    <option value="so2">colorless gas with a sulphur smell</option>
-                    <option value="hcl">colorless gas with a pungent smell</option>
-                    <option value="ch3cooh">colorless gas with a smell of vinegar</option>
-                    <option value="nh3">colorless gas with a characteristic ammonia smell</option>
-                    <option value="no2">reddish brown gas with a pungent smell</option>
-                    <option value="cl2">greenish yellow gas with a pungent smell</option>
-                    <option value="i2">dark violet gas with a pungent smell</option>
-                </optgroup>
-                <optgroup label="color change">
-                    <option>yellow when white and white when cold</option>
-                    <option>brown when hot and yellow when cold</option>
-                    <option>white salt becomes black on heating</option>
-                </optgroup>
-            </select>
-            <br>
-            <br>
-        <p id="description"></p>
-        <div id="content"></div>
+        <h2>Physical tests</h2>
+        <select id="color" name="color" required>
+            <option value="" selected disabled hidden>select a color</option>
+            <option value="absence of Cu^2+, Fe^2+, Fe^3+, Ni^2+, Mn^2+">white</option>
+            <option value="presence of Cu^2+">blue or bluish green</option>
+            <option value="presence of Fe^2+">light green</option>
+            <option value="presence of Fe^3+">dark brown</option>
+            <option value="presence of Ni^2+">green</option>
+            <option value="presence of Co^2+">pink</option>
+            <option value="presence of Mn^2+">light pink, flesh, or earthy</option>
+        </select>
+        <select id="smell" name="smell" required>
+            <option value="" selected disabled hidden>select a smell</option>
+            <option value="nothing">no smell</option>
+            <option value="presence of NH_3^4+">ammoniacal smell</option>
+            <option value="presence of CH_3COOH^-">vinegar like smell</option>
+            <option value="presence of S^2-">rotten egg like smell</option>
+        </select>
+        <select id="dry-heating" name="dry-heating" required>
+            <optgroup label="gas evolved">
+                <option value="" selected disabled hidden>select a gas evolved</option>
+                <option value="presence of CO_3^2- or C_2O_4^2-">colorless and odorless gas</option>
+                <option value="presence of S^2-">colorless gas with a smell of rotten eggs</option>
+                <option value="presence of SO_3^2-">colorless gas with a sulphur smell</option>
+                <option value="presence of Cl^-">colorless gas with a pungent smell</option>
+                <option value="presence of CH_3COOH^-">colorless gas with a smell of vinegar</option>
+                <option value="presence of NH_3^4+">colorless gas with a characteristic ammonia smell</option>
+                <option value="presence of NO_2^- or NO_3^- or Br^-">reddish brown gas with a pungent smell</option>
+                <option value="presence of Cl_2">greenish yellow gas with a pungent smell</option>
+                <option value="presence of I_2">dark violet gas with a pungent smell</option>
+            </optgroup>
+            <optgroup label="color change">
+                <option value="" selected disabled hidden>select a color change</option>
+                <option value="presence of Zn^2+">yellow when white and white when cold</option>
+                <option value="presence of Pb^2+">brown when hot and yellow when cold</option>
+                <option value="presence of CH_3COOH^-">white salt becomes black on heating</option>
+            </optgroup>
+        </select>
+    </select>
+    <p id="description"></p>
     </main>
     <footer>
         <p>
